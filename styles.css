@@ -82,6 +82,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bolder;
+    text-decoration: none;
 }
 
 .navigation .link {
