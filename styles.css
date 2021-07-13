@@ -32,6 +32,8 @@ hr {
     margin: auto;
 }
 
+
+
 /*Links */
 
 .link {
@@ -85,11 +87,6 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bolder;
-<<<<<<< HEAD
-
-=======
-   
->>>>>>> 5dbc5b8bf5f2603293880939415e798c2857affe
 }
 
 .navigation .link {
@@ -190,6 +187,43 @@ hr {
 .ow {
     background-color: var(--off-white);
 }
+/*New adds*/
+.skill-section {
+    margin: 2rem 0;
+    background-color: #9CA3AF;
+}
+
+.skill-section h1{
+     
+        text-align: center;
+        font-family: 'Sacramento', cursive;
+        font-size: 2rem;
+        
+    }
+}
+
+.skill-section ul.skill, .skill-section .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.skill-section .wrapper {
+    flex-direction: column;
+}
+
+.skill-section i {
+    font-size: 80px;
+    padding: 1rem;
+}
+
+/* .skill-section .name {
+    color: var(--dark-bg);
+} */
+
+
 
 /*Footer*/
 .footer {
@@ -250,4 +284,37 @@ hr {
 
 .fa:hover {
     opacity: 0.8;
+}
+
+
+/*Tech-Logos*/
+.skill-section {
+    margin: 2rem 0;
+    text-align: center;
+    font-family: "devicon" !important;;
+}
+
+.skill-section {
+    margin: 2rem 0;
+}
+
+.skill-section ul.skill, .skill-section .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.skill-section .wrapper {
+    flex-direction: column;
+}
+
+.skill-section i {
+    font-size: 80px;
+    padding: 1rem;
+}
+
+.skill-section .name {
+    color: var(--dark-bg);
 }
