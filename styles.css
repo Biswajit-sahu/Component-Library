@@ -130,6 +130,27 @@ hr {
 
 }
 
+/*About-me section*/
+.p-img {
+    background-color: var(--dark-gray)
+}
+
+.About-me {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.About-me .me {
+    display: block;
+    padding-bottom: .7rem;
+}
+
+.personal-pic .pic1 {
+    border-radius: 50%;
+    width: 15rem;
+
+}
+
 
 /*Blog-img*/
 .blog {
@@ -187,22 +208,24 @@ hr {
 .ow {
     background-color: var(--off-white);
 }
+
 /*New adds*/
 .skill-section {
     margin: 2rem 0;
     background-color: #9CA3AF;
 }
 
-.skill-section h1{
-     
-        text-align: center;
-        font-family: 'Sacramento', cursive;
-        font-size: 2rem;
-        
-    }
+.skill-section h1 {
+
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+
+}
 
 
-.skill-section ul.skill, .skill-section .wrapper {
+.skill-section ul.skill,
+.skill-section .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,14 +314,16 @@ hr {
 .skill-section {
     margin: 2rem 0;
     text-align: center;
-    font-family: "devicon" !important;;
+    font-family: "devicon" !important;
+    ;
 }
 
 .skill-section {
     margin: 2rem 0;
 }
 
-.skill-section ul.skill, .skill-section .wrapper {
+.skill-section ul.skill,
+.skill-section .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
