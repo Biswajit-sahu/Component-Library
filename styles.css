@@ -112,7 +112,7 @@ hr {
 
 .hero .hero-img {
     max-width: 80%;
-    max-width: 350px;
+    max-width: 235px;
     margin: auto;
     display: block;
 }
@@ -200,7 +200,7 @@ hr {
         font-size: 2rem;
         
     }
-}
+
 
 .skill-section ul.skill, .skill-section .wrapper {
     display: flex;
