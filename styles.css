@@ -142,7 +142,9 @@ hr {
 
 .About-me .me {
     display: block;
-    padding-bottom: .7rem;
+    padding-bottom: 1.8rem;
+    font-size: large;
+    font-weight: bold;
 }
 
 .personal-pic .pic1 {
